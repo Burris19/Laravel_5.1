@@ -11,6 +11,10 @@
 |
 */
 
+    Route::get('/hola',function(){
+       return "hola bebe";
+    });
+
     Route::get('/', [
         'uses' => 'HomeController@index',
         'as'  => 'home'
