@@ -12,7 +12,7 @@ return [
     | as the size rules. Feel free to tweak each of these messages here.
     |
     */
-
+    'login'                => 'The credentials do not match our record',
     'accepted'             => 'The :attribute must be accepted.',
     'active_url'           => 'The :attribute is not a valid URL.',
     'after'                => 'The :attribute must be a date after :date.',
@@ -104,8 +104,10 @@ return [
     */
 
     'attributes' => [
-        'email' => 'E-mail',
-        'password' => 'Password'
+        'name'                  => 'Name',
+        'email'                 => 'E-mail',
+        'password'              => 'Password',
+        'password_confirmation' => 'Confirm your password'
     ],
 
 ];
